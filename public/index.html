@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><title>TD Roguelike</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="app">
+  <header><h1>TD Roguelike</h1><div id="user"></div></header>
+  <div id="auth">
+    <input id="u" placeholder="usuario"><input id="p" type="password" placeholder="contraseña">
+    <button id="bLogin">Entrar</button><button id="bReg">Registrarme</button>
+    <p id="msg"></p>
+  </div>
+  <div id="game" hidden>
+    <div id="hud"></div><div id="relics"></div><div id="shop"></div><div id="bossbar"></div><div id="toast"></div>
+    <canvas id="c" width="800" height="440"></canvas><p id="legend">Amarillo: rápido | Gris con borde blanco: estatua (invulnerable mientras está quieta) | Verde oliva: oloriento (desgasta torres cercanas)</p>
+    <div id="ctrl"><button id="bWave">Iniciar oleada</button><button id="bDio">Acercarse para molerle la cara</button><button id="bOut">Salir</button></div>
+    <div id="node" class="panel" hidden></div><div id="tut" class="panel" hidden></div><div id="sel" hidden></div><div id="pick" hidden></div>
+    <h3>Top 10</h3><ol id="top"></ol>
+  </div>
+</div>
+<script type="module" src="js/main.js"></script></body></html>

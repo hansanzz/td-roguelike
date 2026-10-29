@@ -1,0 +1,18 @@
+body{margin:0;background:#12141c;color:#e8e8f0;font-family:system-ui,sans-serif}
+#app{max-width:680px;margin:auto;padding:12px}
+header{display:flex;justify-content:space-between;align-items:center}
+input,button{padding:8px 12px;margin:4px 4px 4px 0;border-radius:6px;border:1px solid #444;background:#222736;color:inherit}
+button{cursor:pointer;background:#3b5bdb;border:0}button:hover{background:#4c6ef5}
+canvas{background:#1b2030;border:2px solid #333;max-width:100%;display:block;cursor:crosshair}
+#hud{margin:6px 0;font-weight:600}
+#pick{position:relative;margin-top:8px;padding:10px;background:#222736;border-radius:8px}
+#pick button{display:block;width:100%;text-align:left;margin:6px 0}
+#msg{color:#ff8787}
+#sel{margin-top:8px;padding:8px;background:#222736;border-radius:8px}#shop button{font-size:12px}
+#legend{font-size:12px;opacity:.8;margin:6px 0}
+.bb{position:relative;height:22px;background:#3a1f1f;border:1px solid #666;margin-bottom:3px;border-radius:4px;overflow:hidden}
+.bf{height:100%;background:#e03131}.bb span{position:absolute;inset:0;text-align:center;line-height:22px;font-weight:700;font-size:13px}
+#toast{min-height:20px;font-weight:700;color:#ffd43b}
+#app{max-width:880px}canvas{image-rendering:pixelated}
+.panel{display:flex;gap:12px;align-items:flex-start;margin:8px 0;padding:10px;background:#222736;border:2px solid #555;border-radius:8px}
+.panel img{width:72px;height:72px;image-rendering:pixelated}.panel p{margin:6px 0}#relics{font-size:12px;color:#ffd43b;min-height:16px}

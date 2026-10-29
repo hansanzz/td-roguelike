@@ -1,0 +1,7 @@
+Sprites (poner aca con estos nombres; si faltan se dibujan formas de color):
+torretacasas.gif  -> cuadro colocable (16x16)
+malotecamina.gif  -> camino del enemigo (16x16)
+marker.gif        -> marcador del 1er clic (16x16; mientras tanto es un bloque parpadeante)
+bloqi.png         -> Blocky del tutorial
+bloqitienda.png   -> Blocky de tiendas, descansos y eventos
+Nota: el canvas dibuja un solo cuadro de los GIF; la animacion no se ve en el mapa (lo mismo vale para marker.gif); Blocky si puede animarse porque va como imagen HTML.
